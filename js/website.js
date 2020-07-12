@@ -1,20 +1,3 @@
-jQuery(document).ready(function(){
-    "use strict"
-    $('.home').ripples({
-        dropRadius:15,
-        perturbance:0.01,
-    });
-    var typed = new Typed('.text', {
-        strings: ["<strong>Happy</strong><strong class='primary'> coding</strong>😁", "<strong>happy</strong><strong class='primary'> analysing</strong>  😇 "],
-        typeSpeed: 100,
-        loop:true
-        
-    });
-    
-  
-      
-
-    
-});
-
-
+jQuery(document).ready(function(){"use strict"
+$('.home').ripples({dropRadius:15,perturbance:0.01,});var typed=new Typed('.text',{strings:["<strong>Happy</strong><strong class='primary'> coding</strong>😁","<strong>happy</strong><strong class='primary'> analysing</strong>  😇 "],typeSpeed:100,loop:!0});(function($){var controller=new ScrollMagic.Controller();function animateNumber(){$(".js-count").each(function(){var $this=$(this),countTo=$this.attr("data-count");$({countNum:$this.text()}).animate({countNum:countTo},{duration:20000,easing:"linear",step:function(){$this.text(Math.floor(this.countNum).toLocaleString("en"))},complete:function(){$this.text(this.countNum.toLocaleString("en"))}})})}
+new ScrollMagic.Scene({triggerElement:".section"}).on("enter",function(){$(".section").addClass("pod--animated");animateNumber()}).on("leave",function(){$(".section").removeClass("pod--animated")}).addTo(controller)})(jQuery)})
