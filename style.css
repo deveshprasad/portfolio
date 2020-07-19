@@ -21,6 +21,12 @@ body{margin:0;font-family:'Montserrat',sans-serif}html{scroll-behavior:smooth}*{
     .social .fa{
         font-size: 80px; 
     }
+        .social .fa:hover{
+    color: #19B3D3;
+    border: 3px solid #19B3D3;
+    padding: 45px 45px;
+}
+
     .sidebar{
         width: 28%;
     }
