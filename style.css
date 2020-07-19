@@ -2,8 +2,8 @@ body{margin:0;font-family:'Montserrat',sans-serif}html{scroll-behavior:smooth}*{
     .social{
       width: 100%;
       top: 80vh;
-      height: 20VH;
-      padding-left: 30%;
+      height: 20vh;
+      
       font-size: 4rem;
     }
     .sidebar{
