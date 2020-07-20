@@ -17,13 +17,13 @@ body{margin:0;font-family:'Montserrat',sans-serif}html{scroll-behavior:smooth}*{
       width: 100%;
       top: 80vh;
       height: 25vh;
-      
+      text-align:center;
       
     }
     .social .fa{
         font-size: 80px;
         border:2px solid #fff;
-        padding: 35px 35px;
+        padding: 30px 30px;
 
            
     }
