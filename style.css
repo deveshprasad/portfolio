@@ -22,7 +22,7 @@ body{margin:0;font-family:'Montserrat',sans-serif}html{scroll-behavior:smooth}*{
     }
     .social .fa{
         font-size: 80px;
-        border: 3px solid #fff;
+        
     }
         .social .fa:hover{
     color: #19B3D3;
