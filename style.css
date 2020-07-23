@@ -9,7 +9,7 @@ body{margin:0;font-family:'Montserrat',sans-serif}html{scroll-behavior:smooth}*{
    
 
 }
-.logo{width:100%}#preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:99}#status{width:200px;height:200px;position:absolute;left:50%;top:50%;background-image:url(https://codemyui.com/wp-content/uploads/2017/07/fidget-spinner-loading.gif);background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px}.container-free .btn{box-shadow:10px 10px 10px rgba(0,0,0,.9);font-size:1.5rem}@media screen and (max-width: 992px) {
+.logo{width:100%}#preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:99}#status{width:200px;height:200px;position:absolute;left:50%;top:50%;background-image:url(imgs/loader.gif);background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px}.container-free .btn{box-shadow:10px 10px 10px rgba(0,0,0,.9);font-size:1.5rem}@media screen and (max-width: 992px) {
     @media screen and (max-width: 992px) {
       .main-content h1{
           font-size:5rem}
